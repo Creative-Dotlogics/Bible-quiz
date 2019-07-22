@@ -1,0 +1,29 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background: #23293f;
+  color:#fff;
+}
+
+a {
+  color: #00B7FF;
+}
+
+.container{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  width:80vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container .app-description{
+  width: 30vw;
+}
+
+.phone{
+  height: 80vh;
+}
