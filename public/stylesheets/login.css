@@ -1,0 +1,32 @@
+body {
+    padding: 50px;
+    font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+    background: #23293f;
+    color:#fff;
+  }
+  
+  a {color: #00B7FF;}
+
+  .login{
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%,-50%);
+  }
+  
+  input{
+      border:none;
+      background: #424a6b;
+      padding: 15px 20px;
+      border-radius: 25px;
+      outline: none;
+      width: 300px;
+      color: #fff;
+  }
+  input::placeholder{
+      color: #ccc;
+  }
+
+  .form-group{
+      margin: 10px 0px;
+  }
